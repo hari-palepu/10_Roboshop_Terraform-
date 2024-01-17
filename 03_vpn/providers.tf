@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" { 
      bucket = "roboshopteraform"
-     key    = "roboshop_terraform"
+     key    = "roboshop_terraform_vpn"
      region = "us-east-1"
      dynamodb_table = "roboshopteraform" 
   }
